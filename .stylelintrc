@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "stylelint-config-recommended-scss",
+    "stylelint-config-recess-order"
+  ],
+  "plugins": [
+    "stylelint-no-unsupported-browser-features"
+  ],
+  "rules": {
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "severity": "warning",
+        "ignorePartialSupport": true
+      }
+    ],
+    "selector-class-pattern": "^.[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,2}$",
+    "declaration-block-single-line-max-declarations": 1,
+    "length-zero-no-unit": true,
+    "indentation": 2,
+    "color-hex-case": "lower",
+    "string-quotes": "double",
+    "color-named": "never",
+    "color-no-invalid-hex": true,
+    "color-hex-length": "short",
+    "comment-empty-line-before": "always",
+    "declaration-colon-space-after": "always",
+    "declaration-colon-space-before": "never",
+    "declaration-block-semicolon-newline-after": "always-multi-line",
+    "declaration-block-trailing-semicolon": "always",
+    "shorthand-property-no-redundant-values": true,
+    "declaration-no-important": true,
+    "no-duplicate-selectors": true,
+    "number-leading-zero": "never",
+    "number-no-trailing-zeros": true,
+    "property-no-unknown": true,
+    "block-closing-brace-newline-after": "always",
+    "block-opening-brace-space-before": "always",
+    "block-closing-brace-newline-before": "always-multi-line",
+    "rule-empty-line-before": "always",
+    "selector-max-id": 1,
+    "comment-no-empty": true,
+    "selector-attribute-quotes": "always",
+    "value-list-comma-space-after": "always"
+  }
+}

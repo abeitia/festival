@@ -17,39 +17,17 @@ body {
   background-color: $uoc-bg;
 }
 
-.uoc-container {
-  max-width: 800px;
-  padding: 2rem;
-  margin: auto;
+
+.maintitle{
+  margin-top:2.5rem ;
   text-align: center;
   background-color: #fff;
   border-radius: 2rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
 }
 
-.uoc-logo {
-  display: block;
-  max-width: 200px;
-  height: auto;
-  margin-right: auto;
-  margin-bottom: 1.5rem;
-  margin-left: auto;
-  
-  @media (min-width: $mqMinWidth) {
-    max-width: none;
-  }
-}
 
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: $uoc-corporate;
 
-  @media (min-width: $mqMinWidth) {
-    font-size: 36px;
-  }
-}
+
 
 .uoc-footer {
   margin-top: 1.5rem;
@@ -358,4 +336,22 @@ body {
       opacity: 1;
     }
   }
+}
+
+.s-menu__item{
+  list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    .s-menu {
+        display: flex;
+        align-content:space-between;
+    }
+    .s-menu__item {
+        display: inline-block;
+        padding-right: 30px;
+    }    
+    .s-menu__item:last-child {
+        padding-right: 0;
+    }
 }

@@ -1,5 +1,6 @@
 @use "sass:color";
 
+// @import url(//fonts.googleapis.com/css?family=Merriweather);
 $font-family-sans-serif: -apple-system,
 BlinkMacSystemFont,
 "Segoe UI",
@@ -21,15 +22,27 @@ $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 $mqMinWidth: 420px;
 
 // $theme-colors: ("primary": #9a031e, "success":#00ff1e);
+// $theme-colors: ("accent": rgb(107, 24, 130));
+$theme-colors: ("primary": #0d6efd,
+    "secondary": #6c757d,
+    "success": #198754,
+    "info": #0dcaf0,
+    "warning": #ffc107,
+    "danger": #dc3545,
+    "light": #f8f9fa,
+    "dark": #212529,
+    "accent": rgb(107, 24, 130));
 
-$header-font: 'Galatia SIL',
+
+$header-font: 'Merriweather',
+'Galatia SIL',
 Georgia,
 serif;
-$body-font: 'Avenir Book',
-'Franklin Gothic Medium',
-Helvetica,
-Arial,
-sans-serif;
+
+
+
+
+
 $main: #fff;
 $accent: #f3321f;
 $text: #282828;

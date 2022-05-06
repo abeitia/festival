@@ -56,10 +56,7 @@ body {
   text-align: center;
 }
 
-// .bandas div {
-//   width: 100%;
-//   margin-bottom: 50px;
-// }
+
 
 .banda {
   width: 100%;
@@ -198,7 +195,7 @@ body {
 .main__title {
   font-family: $header-font;
   color: $accent;
-  font-size: calc(3em + 4vw);
+  font-size: calc(3em + 3vw);
   margin-bottom: 0.25em;
 }
 

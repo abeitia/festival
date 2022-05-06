@@ -3,18 +3,19 @@
 @import url(//fonts.googleapis.com/css?family=Merriweather);
 
 $font-family-sans-serif: -apple-system,
-BlinkMacSystemFont,
-"Segoe UI",
-Roboto,
-"Helvetica Neue",
-Arial,
-sans-serif,
-"Apple Color Emoji",
-"Segoe UI Emoji",
-"Segoe UI Symbol";
-$font-family-serif: "Georgia",
-"Times New Roman",
-serif;
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+
+$font-family-serif:"Georgia",
+  "Times New Roman",
+  serif;
 
 $uoc-corporate: rgb(107, 24, 130);
 $uoc-masterbrand: #006400;
@@ -23,21 +24,21 @@ $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
 $mqMinWidth: 420px;
 
 
-$theme-colors: ("primary": #6B1882,
-    "secondary": #6c757d,
-    "success": #198754,
-    "info": #0dcaf0,
-    "warning": #ffc107,
-    "danger": #dc3545,
-    "light": #f8f9fa,
-    "dark": #212529,
-    "accent": #f3321f);
+$theme-colors: ("primary":#6b1882,
+"secondary":#6c757d,
+"success":#198754,
+"info":#0dcaf0,
+"warning":#ffc107,
+"danger":#dc3545,
+"light":#f8f9fa,
+"dark":#212529,
+"accent":#f3321f);
 
 
-$header-font: 'Merriweather',
-'Galatia SIL',
-Georgia,
-serif;
+$header-font: "Merriweather",
+  "Galatia SIL",
+  Georgia,
+  serif;
 
 
 

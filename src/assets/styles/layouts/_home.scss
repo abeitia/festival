@@ -18,8 +18,8 @@ body {
 }
 
 
-.maintitle{
-  margin-top:2.5rem ;
+.maintitle {
+  margin-top: 2.5rem ;
   text-align: center;
   background-color: #fff;
   border-radius: 2rem;
@@ -338,20 +338,23 @@ body {
   }
 }
 
-.s-menu__item{
+.smenu__item {
   list-style-type: none;
 }
 
 @media (min-width: 768px) {
-    .s-menu {
-        display: flex;
-        align-content:space-between;
-    }
-    .s-menu__item {
-        display: inline-block;
-        padding-right: 30px;
-    }    
-    .s-menu__item:last-child {
-        padding-right: 0;
-    }
+
+  .smenu {
+    display: flex;
+    align-content: space-between;
+  }
+
+  .smenu__item {
+    display: inline-block;
+    padding-right: 30px;
+  }
+
+  .smenu__item:last-child {
+    padding-right: 0;
+  }
 }

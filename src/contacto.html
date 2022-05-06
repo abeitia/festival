@@ -12,6 +12,7 @@
         />
         <!-- do not remove this line! -->
         <title>Festival de Mayo</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head>
     <body>
         <div class="uoc-container">
@@ -21,33 +22,37 @@
         <header>
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                    <div class="container">
+                    <div class="container justify-content-between">
                       <a class="navbar-brand py-1"  href="index.html">
                         <img src="./assets/images/logo7.png" width="32" height="32" class="d-inline-block align-top" alt="">
                         Festival de mayo
-                        </a>
+                      </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="bandas.html">Bandas</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="articulo.html">Artículo</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active" href="contacto.html">Contacto</a>
-                          </li>
-                         
-                          
-                        </ul>
-                       
-                      </div>
+                     
+                        
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="bandas.html">Bandas</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="articulo.html">Artículo</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" href="contacto.html">Contacto</a>
+                              </li>
+                             
+                              
+                            </ul>
+                           
+                          </div>
+                     
+                     
                     </div>
                   </nav>
             </div>
@@ -58,7 +63,15 @@
                 <div class="container  d-flex justify-content-center">
                     <div class="col-md-8 order-md-1">
                         <h4 class="mb-3">Su dirección</h4>
-                        <form class="needs-validation" name="contact" action="#" method="post" novalidate netlify data-netlify-recaptcha="true">
+
+                        <form class="needs-validation"
+                         name="contact"
+                         action="#"
+                         method="post"
+                         novalidate
+                         netlify
+                         data-netlify-recaptcha="true">
+
                             <fieldset >
                                 <div class="row">
                                     <div class="col-md-6 mb-3 ">
@@ -142,7 +155,7 @@
                                 
                                 </div>
                                 <div data-netlify-recaptcha="true"></div>
-                                <button class="btn btn-accent btn-lg btn-block mb-3"type="submit">Enviar</button>
+                                <button class="btn btn-accent btn-lg btn-block mb-3 py-1"type="submit">Enviar</button>
                                 
                             </fieldset>
                     
